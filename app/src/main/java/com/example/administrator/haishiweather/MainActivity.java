@@ -1,4 +1,4 @@
-package com.example.administrator.coolweather;
+package com.example.administrator.haishiweather;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

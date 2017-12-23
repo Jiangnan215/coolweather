@@ -1,4 +1,4 @@
-package com.example.administrator.coolweather.service;
+package com.example.administrator.haishiweather.service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -9,9 +9,9 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
 
-import com.example.administrator.coolweather.gson.Weather;
-import com.example.administrator.coolweather.util.HttpUtil;
-import com.example.administrator.coolweather.util.Utility;
+import com.example.administrator.haishiweather.gson.Weather;
+import com.example.administrator.haishiweather.util.HttpUtil;
+import com.example.administrator.haishiweather.util.Utility;
 
 import java.io.IOException;
 

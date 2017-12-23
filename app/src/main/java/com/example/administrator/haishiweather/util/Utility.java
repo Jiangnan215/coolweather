@@ -1,11 +1,11 @@
-package com.example.administrator.coolweather.util;
+package com.example.administrator.haishiweather.util;
 
 import android.text.TextUtils;
 
-import com.example.administrator.coolweather.db.City;
-import com.example.administrator.coolweather.db.County;
-import com.example.administrator.coolweather.db.Province;
-import com.example.administrator.coolweather.gson.Weather;
+import com.example.administrator.haishiweather.db.City;
+import com.example.administrator.haishiweather.db.County;
+import com.example.administrator.haishiweather.db.Province;
+import com.example.administrator.haishiweather.gson.Weather;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;

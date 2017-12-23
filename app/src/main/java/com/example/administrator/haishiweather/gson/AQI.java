@@ -1,6 +1,4 @@
-package com.example.administrator.coolweather.gson;
-
-import java.security.PublicKey;
+package com.example.administrator.haishiweather.gson;
 
 /**
  * Created by Administrator on 2017/12/19 0019.

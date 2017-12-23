@@ -1,4 +1,4 @@
-package com.example.administrator.coolweather.util;
+package com.example.administrator.haishiweather.util;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

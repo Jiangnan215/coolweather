@@ -1,4 +1,4 @@
-package com.example.administrator.coolweather;
+package com.example.administrator.haishiweather;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -20,11 +20,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.example.administrator.coolweather.gson.Forecast;
-import com.example.administrator.coolweather.gson.Weather;
-import com.example.administrator.coolweather.service.AutoUpdateService;
-import com.example.administrator.coolweather.util.HttpUtil;
-import com.example.administrator.coolweather.util.Utility;
+import com.example.administrator.haishiweather.gson.Forecast;
+import com.example.administrator.haishiweather.gson.Weather;
+import com.example.administrator.haishiweather.service.AutoUpdateService;
+import com.example.administrator.haishiweather.util.HttpUtil;
+import com.example.administrator.haishiweather.util.Utility;
 
 import java.io.IOException;
 
@@ -206,7 +206,7 @@ public class WeatherActivity extends AppCompatActivity {
     private void showWeatherInfo(Weather weather){
         String cityName = weather.basic.cityName;
         String updateTime = weather.basic.update.updateTime.split(" ")[1];
-        String degree = weather.now.temperature + "C";
+        String degree = weather.now.temperature + "°C";
         String weatherInfo = weather.now.more.info;
         titleCity.setText(cityName);
         titleUpdateTime.setText(updateTime);

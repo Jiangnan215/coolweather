@@ -1,4 +1,4 @@
-package com.example.administrator.coolweather;
+package com.example.administrator.haishiweather;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
@@ -16,11 +16,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.administrator.coolweather.db.City;
-import com.example.administrator.coolweather.db.County;
-import com.example.administrator.coolweather.db.Province;
-import com.example.administrator.coolweather.util.HttpUtil;
-import com.example.administrator.coolweather.util.Utility;
+import com.example.administrator.haishiweather.db.City;
+import com.example.administrator.haishiweather.db.County;
+import com.example.administrator.haishiweather.db.Province;
+import com.example.administrator.haishiweather.util.HttpUtil;
+import com.example.administrator.haishiweather.util.Utility;
 
 import org.litepal.crud.DataSupport;
 
